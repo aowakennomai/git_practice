@@ -21,3 +21,7 @@ function multipy(x, y) {
 	// 乘法後回傳
 	return x * y;
 }
+
+function toDateString(date) {
+	return date.format('yyyy-mm-dd');
+}
