@@ -25,6 +25,15 @@ function fibonacci(x) {
 	return fibonacci(x - 1) + fibonacci(x - 2);
 }
 
+/**
+ * 回傳平方值
+ * @param x
+ * @returns
+ */
+function square(x) {
+	return x * x;
+}
+
 function devide(x, y) {
 	// 簡單的 x 除以 y
 	return x / y;
